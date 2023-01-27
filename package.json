@@ -1,0 +1,19 @@
+{
+    "name": "latihan-react",
+    "version": "1.0.0",
+    "description": "latihan-react",
+    "main": "app.js",
+    "scripts": {
+        "build": "babel src --out-dir public -w",
+        "serve": "lite-server --baseDir public",
+        "start": "yarn build && yarn serve"
+    },
+    "author": "andi-galih",
+    "license": "ISC",
+    "dependencies": {
+        "@babel/cli": "^7.20.7",
+        "@babel/core": "^7.20.12",
+        "@babel/preset-react": "^7.18.6",
+        "lite-server": "^2.6.1"
+    }
+}
